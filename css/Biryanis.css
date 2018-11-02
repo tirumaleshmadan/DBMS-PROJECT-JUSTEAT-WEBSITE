@@ -1,0 +1,225 @@
+html{
+	margin:0;
+	padding:0;
+}
+body{
+	margin:0;
+	padding:0;
+}
+.slider{
+       margin:0 1000px 0 0;
+       width:20%;
+       height:100%;
+       background-color:purple;
+       float:left;
+}
+.slider p{
+       margin:30px 0 50px 88px;
+       color:white;
+       font-size:30;    
+}
+.slider ul{
+       list-style-type:none;
+}
+.slider ul a{
+       text-decoration:none;
+}
+.slider ul a .nonhighlight{
+       width:90%;
+       height:6%;
+       border:1px solid purple;
+       background-color:white;
+       border-radius:20px;
+       color:purple;
+       text-align:center;
+       color:purple;
+       font-size:32;
+       font-weight:10;
+       margin:14px 0 0 0;
+       padding:2px 0 0 0;
+}
+.slider ul a .highlight{
+       width:90%;
+       height:6%;
+       border:1px solid purple;
+       background-color:#b577ef;
+       border-radius:20px;
+       color:purple;
+       text-align:center;
+       color:purple;
+       font-size:38;
+       font-weight:10;
+       margin:14px 0 0 0;
+       padding:2px 0 0 0;
+}
+.slider ul a .nonhighlight:hover{
+       font-size:38;
+       background-color:#b577ef;
+}
+.menu{
+       margin:0 0 0 307px;
+}
+.menu .header{
+       width:100%;
+       height:10%;
+       background-color:white;
+       position:relative;
+}
+.menu  a .dash{
+       position:absolute;
+       top:10px;
+       left:3px;
+       font-size:30;
+       color:purple;
+       font-weight:bold;
+       width:300px;
+       height:60px;
+       background-color:white;
+       border:1px solid purple;
+       border-radius:20px;
+}
+.menu  a .dash:hover{
+       color:white;
+       font-size:32;
+       background-color:purple;
+}
+.menu .header a .location{
+       postion:absolute;
+       color:white;
+       margin:25px 0 0 -70px;
+       left:580px;
+       top:20px;
+       width:40px;
+       height:40px;
+       background-color:white;
+       border:1px solid purple;
+       border-radius:100px;
+       float:left;
+}
+.menu .header a .location:hover{
+        background-color:purple;       
+}
+.menu .header a .cart{
+       postion:absolute;
+       color:white;
+       margin:15px 0 0 -20px;
+       left:580px;
+       top:20px;
+       width:60px;
+       height:60px;
+       background-color:white;
+       border:1px solid purple;
+       border-radius:100px;
+       float:left;
+}
+.menu .header a .cart:hover{
+        background-color:purple;       
+}
+.menu .header a .out{
+       postion:absolute;
+       color:white;
+       margin:25px 0 0 70px;
+       font-size:16;
+       left:780px;
+       width:80px;
+       height:40px;
+       background-color:purple;
+       border:1px solid green;
+       border-radius:5px;
+}
+.menu .header a .out:hover{
+       background-color:white;
+       color:purple;
+}
+.menu .menuitems{
+       width:100%;
+       height:90%;
+       background-color:#777777;
+       position:relative;
+}
+.menu .menuitems img{
+       top:0;
+       left:0;
+       width:100%;
+       height:100%;
+       position:absolute;
+}
+.menu .menuitems .background{
+       top:0;
+       left:0;
+       opacity:0.4;
+       filter : alpha(opacity=80);
+       width:100%;
+       height:100%;
+       background-color:purple;
+       position:absolute;
+}
+.menu .menuitems .front{
+       top:0;
+       left:0;
+       width:100%;
+       height:100%;
+       background-color:transparent;
+       position:absolute;
+}
+.menu .menuitems .front ul{
+       list-style-type:none;       
+}
+.menu .menuitems .front li{
+       float:left;
+       color:black;
+       font-size:25;
+       font-weight:bold;
+       opacity:0.9;
+       filter : alpha(opacity=80);
+       margin:20px 20px 20px 20px;
+       width:250px;
+       height:150px;
+       transition: transform 1s;
+       border:1px solid black;
+       background-color:white;
+       position:relative;
+}
+.menu .menuitems .front li:hover{
+       transform: rotate(5deg) scale(1.1);
+}
+.menu .menuitems .front li p{
+       position:absolute;
+       color:white;
+       font-size:20;
+       font-weight:bold;
+       text-align:left;
+       background-color:purple;
+       border:1px solid white;
+       border-radius:10px;
+       text-align:center;
+       width:86px;
+       height:70px;
+       margin:25px 0 0 0 ;
+}
+.menu .menuitems .front li img{
+       top:-2px;
+       left:100px;
+       position:absolute;
+       width:150px;
+       height:150px;
+       border:1px solid black;
+       background-color:white;
+}
+.menu .menuitems .front li .submit{
+       position:absolute;
+       color:purple;
+       font-size:25;
+       font-weight:bold;
+       text-align:center;
+       background-color:white;
+       border:1px solid purple;
+       text-align:center;
+       width:80px;
+       height:30px;
+       margin:105px 0 0 10px;
+}
+.menu .menuitems .front li .submit:hover{
+       background-color:purple;
+       color:white;
+}

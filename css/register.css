@@ -1,0 +1,165 @@
+html{
+	margin:0;
+	padding:0;
+}
+body{
+	margin:0;
+	padding:0;
+}
+.image{
+	position:relative;
+	width:100%;
+	height:100%;
+}
+.image .register{
+	position:absolute;
+	top:120px;
+	left:550px;
+	width:400px;
+	height:400px;
+}
+.image .register .heading{
+	font-size:35;
+	font-weight:bold;
+	font-family:"Times New Roman";
+	color:black;
+       
+}
+.image .register .box{
+	background-color:#111111;
+	width:500px;
+	height:50px;
+	border:1px solid #333333;
+	color:white;
+	border-radius:5px;
+	margin:0 0 6px 0;
+       font-size:20;
+}
+::-webkit-input-placeholder {
+  color: #555555;
+  font-size: 20px;
+}
+::-moz-placeholder {
+  color: #555555;
+  font-size: 20px;
+}
+:-ms-input-placeholder {
+  color: #555555;
+  font-size: 20px;
+}
+::placeholder {
+  color: #555555;
+  font-size: 20px;
+}
+.image .register .submit{
+	background-color:#2144ff;
+	width:200px;
+	height:35px;
+	border:1px solid #333333;
+	color:white;
+	border-radius:5px;
+	margin:20px 0 6px 130px;
+}
+.image .register .gender{
+       margin:10px 0 0 50px;
+       width:152px;
+       height:35px;
+       background-color:black;
+       color:white;
+       font-size:24;
+       font-weight:bold;
+}
+.image .register .sel{
+       font-size:23;
+       float:left;
+       font-weight:bold;
+       margin:15px 0 0 50px;
+}
+.image .register .error{
+       position:absolute;
+       top:170px;
+	left:100px;
+       width:300px;
+       height:180px;
+       background-color:white;
+       border:2px solid #aaaaaa;
+}
+.image .register .error .up{
+       width:100%;
+       height:35px;
+       background-color:black;
+       color:white;
+}
+.image .register .error .up p{
+       font-size:14px;
+       float:left;
+       color:white;
+       margin:7px 130px 0 2px;
+}
+.image .register .error .up a button{
+       margin:5px 0 0 0;
+       border:none;
+}
+.image .register .error .up a button:hover{
+       background-color:red;
+       color:white;
+}
+.image .register .error .message{
+      width:100%;  
+      height:95px;    
+      background-color:white;
+      color:black;
+}
+.image .register .error .message img{
+        padding:20px;
+        float:left;      
+}
+.image .register .error .message p{ 
+        color:black;
+        font-size:12px;
+        font-weight:bold;
+        padding:25px 0 0 0;      
+}
+.image .register .error .down{
+       width:100%;
+       height:40px;;
+       background-color:#666666;
+       color:black;
+}
+.image .register .error .down a{
+       width:200px;
+       height:20px;
+       margin:0 0 0 220px;
+}
+.image .register .error .down a button{
+       width:55px;
+       height:25px;
+       margin:10px 0 0 0;
+       border:1px solid blue;
+}
+.image .register .error .down a button:hover{
+       background-color:skyblue;
+}
+.image .register .error .down .bt1{
+       float:left;
+       margin:0 0 0 15px;
+}
+.image .register .error .down .bt1 button{
+       width:55px;
+       height:25px;
+       border:1px solid blue;
+}
+.image .register .error .down .bt1 button:hover{
+       background-color:skyblue;
+}
+.image .register .error .down .bt2{
+       margin:0;
+}
+.image .register .error .down .bt2 button{
+       width:55px;
+       height:25px;
+       border:1px solid blue;
+}
+.image .register .error .down .bt2 button:hover{
+       background-color:skyblue;
+}

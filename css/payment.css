@@ -1,0 +1,376 @@
+html{
+       margin:0;
+       padding:0;
+}
+body{
+       margin:0;
+       padding:0;
+}
+.border{
+       width:100%;
+       height:100%;
+       background-color:white;
+       position:relative;
+}
+.border .top{
+       position:absolute;
+       background-color:purple;
+       width:100%;
+       height:15.7%;
+}
+.border .top p{
+       color:white;
+       font-size:60;
+       font-weight:bold;
+       text-align:center;
+       margin-top:10px;
+}
+.border .top a .dash{
+       position:absolute;
+       top:10px;
+       left:3px;
+       font-size:30;
+       color:purple;
+       font-weight:bold;
+       width:300px;
+       height:60px;
+       background-color:white;
+       border:1px solid purple;
+       border-radius:20px;
+       float:left;
+}
+.border .top a .dash:hover{
+       color:white;
+       font-size:32;
+       background-color:purple;
+       border:1px solid white;
+}
+.border .margin{
+       position:absolute;
+       margin:120px 150px 150px 150px;
+       width:1220px;
+       height:550px;
+}
+.border .margin .account{
+       width:59%;
+       height:100%;
+       background-color:#ffffff;
+       border:5px solid #bbbbbb;
+       border-radius:10px;
+       float:left;
+       position:relative;
+}
+.border .margin .account .heading{
+       position:absolute;
+       margin:10px 0 0 20px;
+       width:400px;
+       line-height:2.4;
+       height:50px;
+       color:purple;
+       font-size:30;
+       font-weight:bold;
+       float:left;
+}
+.border .margin .account .type{
+       position:absolute;
+       margin:80px 0 0 50px;
+       width:400px;
+       line-height:2.4;
+       height:50px;
+       color:green;
+       font-size:20;
+       font-weight:bold;
+       line-height:1;
+       float:left;
+}
+.border .margin .account .warning{
+       position:absolute;
+       margin:50px 0 0 480px;
+       width:200px;
+       line-height:2.4;
+       height:50px;
+       color:red;
+       font-size:20;
+       font-weight:bold;
+       line-height:1;
+       float:left;
+}
+.border .margin .account .acc{
+       position:absolute;
+       margin:160px 0 0 50px;
+       width:150px;
+       line-height:2.4;
+       height:50px;
+       color:black;
+       font-size:20;
+       font-weight:bold;
+       float:left;
+}
+.border .margin .account .no{
+       position:absolute;
+       margin:160px 0 0 220px;
+       background-color:white;
+	width:400px;
+	height:50px;
+	border:1px solid #333333;
+	color:purple;
+	border-radius:5px;
+       font-size:20;
+}
+.border .margin .account .expiry{
+       position:absolute;
+       margin:240px 0 0 50px;
+       width:150px;
+       line-height:2.4;
+       height:50px;
+       color:black;
+       font-size:20;
+       font-weight:bold;
+       float:left;
+}
+.border .margin .account .month{
+       position:absolute;
+       margin:240px 0 0 280px;
+       width:80px;
+       line-height:2.4;
+       border:1px solid #333333;
+       height:40px;
+       color:black;
+       font-size:20;
+       font-weight:bold;
+       float:left;
+}
+.border .margin .account .month option{
+       color:purple;
+}
+.border .margin .account .year{
+       position:absolute;
+       margin:240px 0 0 380px;
+       width:80px;
+       line-height:2.4;
+       border:1px solid #333333;
+       height:40px;
+       color:black;
+       font-size:20;
+       font-weight:bold;
+       float:left;
+}
+.border .margin .account .year option{
+       color:purple;
+}
+.border .margin .account .pcvv{
+       position:absolute;
+       margin:320px 0 0 50px;
+       width:150px;
+       line-height:2.4;
+       height:50px;
+	color:black;
+       font-size:20;
+       font-weight:bold;
+       float:left;
+}
+.border .margin .account .cvv{
+       position:absolute;
+       margin:320px 0 0 220px;
+       background-color:white;
+	width:100px;
+	height:40px;
+	border:1px solid #333333;
+	color:purple;
+	border-radius:5px;
+       font-size:20;
+}
+.border .margin .account .order{
+       position:absolute;
+       margin:420px 0 0 300px;
+       background-color:white;
+       color:purple;
+	width:100px;
+	height:40px;
+	border:1px solid purple;
+	border-radius:5px;
+       font-size:20;
+}
+.border .margin .account .order:hover{
+       background-color:purple;
+       color:white;
+       font-size:22;
+}
+.border .margin .bill{
+       margin:0 0 0 15px;
+       width:38%;
+       height:100%;
+       background-color:#ffffff;
+       border:5px solid #bbbbbb;
+       border-radius:10px;
+       float:left;
+       position:relative;
+}
+.border .margin .bill .name{
+       position:absolute;
+       margin:20px 0 0 0;
+       width:100%;
+       line-height:0;
+       height:50px;
+       color:purple;
+       font-size:30;
+       font-weight:bold;
+       float:left;
+       text-align:center;
+}
+.border .margin .bill .image{
+       position:absolute;
+       margin:80px 0 0 50px;
+       width:120px;
+       height:120px;
+       padding:10px;
+       background-color:#cccccc;
+       border:2px solid #aaaaaa;
+}
+.border .margin .bill .title{
+       position:absolute;
+       margin:100px 0 0 210px;
+       width:auto;
+       line-height:0;
+       height:50px;
+       color:purple;
+       font-size:25;
+       font-weight:bold;
+}
+.border .margin .bill .type{
+       position:absolute;
+       margin:120px 0 0 240px;
+       width:auto;
+       line-height:0.3;
+       height:50px;
+       color:purple;
+       font-size:15;
+       font-weight:bold;
+}
+.border .margin .bill .pass1{
+       position:absolute;
+       margin:280px 0 0 60px;
+       width:260px;
+       height:220px;
+       background-color:purple;
+       float:left;
+        border-radius:6px;
+}
+.border .margin .bill .pass1 p{
+       margin-left:30px;
+       color:white;
+       font-size:16px;
+       font-weight:bold;
+}
+.border .margin .bill .pass2{
+       position:absolute;
+       margin:280px 0 0 320px;
+       width:94px;
+       height:220px;
+       background-color:purple;
+       border-left:1px solid #333333;
+       border-radius:6px;
+}
+.border .margin .bill .pass2 p{
+       margin-left:30px;
+       color:white;
+       font-size:16px;
+       font-weight:bold;
+}
+
+
+
+
+
+/*for prompt*/
+
+
+.border .margin .thanks{
+       background-color:#222222;
+       position:absolute;
+       margin:70px 0 0 200px;
+       width:800px;
+       height:400px;
+       border-radius:30px;
+       border:5px solid #777777;
+}
+.border .margin .thanks p{
+       position:absolute;
+       margin:20px 0 0 0px;
+       width:100%;
+       text-align:center;
+       height:auto;
+       color:white;
+       font-size:20;
+       font-weight:bold
+}
+.border .margin .thanks img{
+       position:absolute;
+       margin:80px 0 0 200px;
+       width:400px;
+       height:200px;
+}
+
+
+/*FOR RATING */
+
+.border .margin .rating{
+       position:absolute;
+       top:90%;
+       left:50%;
+       transform:translate(-50%,-50%) rotatey(180deg);
+       display:flex;
+}
+.border .margin .rating input{
+       display:none;
+}
+.border .margin .rating label
+{
+       display:block;
+       cursor:pointer;
+       width:50px;
+}
+.border .margin .rating label:before{
+       content:'\f005';
+       font-family:fontAwesome;
+       position:relative;
+       display:block;
+       font-size:30;
+       color:#101010;
+}
+.border .margin .rating label:after{
+       content:'\f005';
+       font-family:fontAwesome;
+       position:absolute;
+       display:block;
+       font-size:30;
+       color:#ffd700;
+       top:0;
+       opacity:0;
+       transition: .5s;
+       text-shadow: 0 2px 5px rgba(0,0,0,0.5);
+}
+.border .margin .rating label:hover:after,
+.border .margin .rating label:hover ~ label:after,
+.border .margin .rating input:checked ~ label:after{
+       opacity:1;
+}
+
+.border .margin .rate{
+       position:absolute;
+       top:86%;
+       left:70%;
+       width:100px;
+       height:35px;
+       font-weight:20;
+       color:purple;
+       background-color:white;
+       border:2px solid purple;
+       border-radius:5px;
+       font-size:20;
+}
+.border .margin .rate:hover{
+       background-color:purple;
+       color:white;
+       font-size:22;
+}

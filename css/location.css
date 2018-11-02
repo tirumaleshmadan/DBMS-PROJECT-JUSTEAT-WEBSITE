@@ -1,0 +1,177 @@
+html{
+	margin:0;
+	padding:0;
+}
+body{
+	margin:0;
+	padding:0;
+}
+.image{
+	position:relative;
+	width:100%;
+	height:100%;
+}
+.image .menu{
+       position:absolute;
+       top:0;
+       left:0;
+}
+.image .menu .header{
+       width:1520px;
+       height:80px;
+       background-color:white;
+       position:relative;
+}
+.image .menu  a .dash{
+       position:absolute;
+       top:10px;
+       left:3px;
+       font-size:30;
+       color:purple;
+       font-weight:bold;
+       width:300px;
+       height:60px;
+       background-color:white;
+       border:1px solid purple;
+       border-radius:20px;
+}
+.image .menu  a .dash:hover{
+       color:white;
+       font-size:32;
+       background-color:purple;
+}
+.image .menu .header a .cart{
+       postion:absolute;
+       color:white;
+       margin:15px 0 0 1320px;
+       width:60px;
+       height:60px;
+       background-color:white;
+       border:1px solid purple;
+       border-radius:100px;
+       float:left;
+}
+.image .menu .header a .cart:hover{
+        background-color:purple;       
+}
+
+.menu .header a .out{
+       postion:absolute;
+       color:white;
+       margin:25px 0 0 30px;
+       font-size:16;
+       width:80px;
+       height:40px;
+       background-color:purple;
+       border:1px solid green;
+       border-radius:5px;
+}
+.menu .header a .out:hover{
+       background-color:white;
+       color:purple;
+}
+.image .register{
+	position:absolute;
+	top:30px;
+	left:400px;
+	width:800px;
+	height:500px;
+}
+.image .register .heading{
+	font-size:35;
+	font-weight:bold;
+	font-family:"Times New Roman";
+	color:purple;
+       margin:0 0 160px 150px;
+}
+.image .register ul{
+       list-style:none;
+}
+.image .register ul .hi{
+       float:left;
+}
+.image .register ul li ul{
+       list-style:none;
+}
+.image .register ul .hi ul li{
+      height:30px;
+}
+.image .register ul li ul li .text{
+       font-size:25;
+	font-weight:bold;
+	font-family:"Times New Roman";
+	color:black;
+       line-height:0;
+}
+.image .register ul li ul li .box{
+	background-color:#111111;
+	width:400px;
+	height:50px;
+	border:1px solid #333333;
+	color:white;
+	border-radius:5px;
+	margin:0 0 6px 0;
+       font-size:20;
+}
+.image .register ul li ul li .submit{
+	background-color:#2144ff;
+	width:200px;
+	height:35px;
+	border:1px solid #333333;
+	color:white;
+	border-radius:5px;
+	margin:20px 0 6px 130px;
+}
+
+
+
+
+
+
+
+
+
+#snackbar {
+    visibility: hidden; /* Hidden by default. Visible on click */
+    min-width: 250px; /* Set a default minimum width */
+    margin-left: -125px; /* Divide value of min-width by 2 */
+    background-color: #333; /* Black background color */
+    color: #fff; /* White text color */
+    text-align: center; /* Centered text */
+    border-radius: 2px; /* Rounded borders */
+    padding: 16px; /* Padding */
+    position: fixed; /* Sit on top of the screen */
+    z-index: 1; /* Add a z-index if needed */
+    left: 50%; /* Center the snackbar */
+    bottom: 30px; /* 30px from the bottom */
+}
+
+/* Show the snackbar when clicking on a button (class added with JavaScript) */
+#snackbar.show {
+    visibility: visible; /* Show the snackbar */
+    /* Add animation: Take 0.5 seconds to fade in and out the snackbar. 
+   However, delay the fade out process for 2.5 seconds */
+   -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+   animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+/* Animations to fade the snackbar in and out */
+@-webkit-keyframes fadein {
+    from {bottom: 0; opacity: 0;} 
+    to {bottom: 30px; opacity: 1;}
+}
+
+@keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+}
+
+@-webkit-keyframes fadeout {
+    from {bottom: 30px; opacity: 1;} 
+    to {bottom: 0; opacity: 0;}
+}
+
+@keyframes fadeout {
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+}
